@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: dbt_ajoijode
+    database: dbt_aj
+    schema: dbt_ajoijode
+    tables:
+      - name: persons
