@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: dbt_ajoijode
-    database: dbt_aj
-    schema: dbt_ajoijode
+  - name: fivetran_database
+    database: fivetran_database
+    schema: google_sheets
     tables:
-      - name: persons
+      - name: gsheets_monzo
